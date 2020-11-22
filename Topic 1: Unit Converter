@@ -1,0 +1,9 @@
+meter = int(input("Meter: ")) 
+inch = meter/0.0254
+feet = meter * 3.2808
+yard = meter * 1.093
+
+print(meter,"meters")
+print(inch,"inches")
+print(feet,"feets")
+print(yard,"yards")
