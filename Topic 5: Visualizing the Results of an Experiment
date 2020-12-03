@@ -1,0 +1,12 @@
+import statistics 
+
+veri_list = [0.19,0.16,0.14,0.14,0.17,0.11]
+
+avg = statistics.mean(veri_list)
+
+g = (2**1/2)/(avg)
+
+stdev = statistics.stdev(veri_list)
+print("The average of veri_list is",avg)
+print("Standard Deviation of veri_list is %",stdev)  
+print("The gravitational force is",g)
